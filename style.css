@@ -34,6 +34,8 @@ body {
     margin: 0 auto 20px;
     max-width: 100%;
     height: auto;
+    /* Ajoutez un padding pour éviter qu'il ne touche d'autres éléments */
+    padding: 10px 0;
 }
 
 .audio-container {
