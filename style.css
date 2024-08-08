@@ -11,18 +11,6 @@ body {
     color: white;
 }
 
-.animation-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, #001f3f, #004080, #0074d9);
-    background-size: 400% 400%;
-    animation: ocean-waves 10s ease infinite;
-    z-index: 0;
-}
-
 .content {
     position: relative;
     z-index: 1;
@@ -36,6 +24,18 @@ body {
     height: auto;
     /* Ajoutez un padding pour éviter qu'il ne touche d'autres éléments */
     padding: 10px 0;
+}
+
+.animation-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #001f3f, #004080, #0074d9);
+    background-size: 400% 400%;
+    animation: ocean-waves 10s ease infinite;
+    z-index: 0;
 }
 
 .audio-container {
